@@ -2,10 +2,23 @@
   --blueText: #264576;
 }
 
+html {
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
 
 button,
@@ -121,6 +134,10 @@ code {
   background: #1e82fa;
   border-radius: 100px;
   color: #fff;
+}
+
+.list {
+  flex: 1;
 }
 
 .list__count {

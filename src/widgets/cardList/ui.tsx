@@ -57,6 +57,7 @@ export const CardList = () => {
             maxWidth: "max-content",
             fontWeight: 700,
             fontSize: "32px",
+            flex: 1,
           }}
         >
           По вашему запросу ничего не найдено

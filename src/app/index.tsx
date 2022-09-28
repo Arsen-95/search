@@ -6,7 +6,7 @@ import "./index.css";
 
 function App() {
   return (
-    <>
+    <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
       <Header />
       <section className="registry">
         <div className="container">
@@ -21,7 +21,7 @@ function App() {
       </section>
       <CardList />
       <Footer />
-    </>
+    </div>
   );
 }
 
